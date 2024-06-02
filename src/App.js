@@ -1,9 +1,11 @@
+
+import AppRoutes from "./Routes";
 import "./styles.css";
 
 export default function App() {
   return (
-    <div className="App">
-      <h1>Oiii</h1>
+    <div className=" p-2 ">
+      <AppRoutes />
     </div>
   );
 }
